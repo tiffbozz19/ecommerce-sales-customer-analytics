@@ -1,0 +1,15 @@
+# Large/generated datasets
+online_retail_clean.csv
+online_retail.csv
+online_retail.db
+Online Retail.xlsx
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
