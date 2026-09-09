@@ -6,6 +6,19 @@ This project analyzes more than 500,000 transaction records from a UK-based onli
 
 The analysis uses Python for data cleaning and exploratory analysis, SQL for business queries, RFM analysis for customer segmentation, and Tableau for dashboard development.
 
+## Dashboard
+
+![E-Commerce Sales & Customer Analytics Dashboard](images/dashboard.png)
+
+### Dashboard Highlights
+
+- £10.27M in merchandise revenue
+- 19,779 orders
+- 5.56M units sold
+- £519.03 average order value
+- Repeat customers generated 92.8% of identifiable-customer revenue
+- Champion customers represented 20.7% of customers but generated 63.7% of customer-attributable revenue
+
 ## Business Questions
 
 The project was designed to answer the following questions:
@@ -64,6 +77,33 @@ After cleaning and filtering, the merchandise dataset contained **522,701 transa
 - Average order value was approximately **£519.03**.
 - Revenue increased sharply during September through November 2011, with November producing the highest full-month revenue.
 - December 2011 contains only December 1–9 and was treated as a partial month.
+
+## Business Recommendations
+
+- Prioritize retention efforts for repeat customers, who generated 92.8% of identifiable-customer revenue.
+- Develop targeted win-back campaigns for high-value customers in the At Risk and Can't Lose Them segments.
+- Encourage second purchases among recent one-time buyers and potential loyalists.
+- Protect Champion customers through loyalty initiatives and personalized engagement.
+- Explore growth opportunities in international markets such as the Netherlands and Australia, where average order values were substantially higher than in many other markets.
+- Plan inventory and marketing resources around the strong seasonal sales increase observed from September through November.
+
+## Repository Structure
+
+- `python/` – Python data cleaning, exploratory analysis, and RFM segmentation
+- `sql/` – SQL business analysis queries
+- `data/` – Aggregated analysis outputs used in the project
+- `images/` – Dashboard and supporting visualizations
+- `requirements.txt` – Python dependencies
+
+## Technical Workflow
+
+1. Imported and audited more than 500,000 transaction records using Python and Pandas.
+2. Identified duplicate records, missing customer IDs, cancellations, pricing anomalies, and non-merchandise transactions.
+3. Created a cleaned merchandise dataset and engineered revenue and time-based variables.
+4. Analyzed sales trends, product performance, geographic markets, and customer purchasing behavior.
+5. Created RFM customer segments using recency, frequency, and monetary value.
+6. Loaded the cleaned data into SQLite and reproduced key business analyses using SQL.
+7. Developed an interactive Tableau dashboard to communicate the major findings.
 
 ### Product Performance
 
