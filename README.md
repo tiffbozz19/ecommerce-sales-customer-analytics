@@ -87,14 +87,6 @@ After cleaning and filtering, the merchandise dataset contained **522,701 transa
 - Explore growth opportunities in international markets such as the Netherlands and Australia, where average order values were substantially higher than in many other markets.
 - Plan inventory and marketing resources around the strong seasonal sales increase observed from September through November.
 
-## Repository Structure
-
-- `python/` – Python data cleaning, exploratory analysis, and RFM segmentation
-- `sql/` – SQL business analysis queries
-- `data/` – Aggregated analysis outputs used in the project
-- `images/` – Dashboard and supporting visualizations
-- `requirements.txt` – Python dependencies
-
 ## Technical Workflow
 
 1. Imported and audited more than 500,000 transaction records using Python and Pandas.
@@ -104,6 +96,14 @@ After cleaning and filtering, the merchandise dataset contained **522,701 transa
 5. Created RFM customer segments using recency, frequency, and monetary value.
 6. Loaded the cleaned data into SQLite and reproduced key business analyses using SQL.
 7. Developed an interactive Tableau dashboard to communicate the major findings.
+
+## Repository Structure
+
+- `python/` – Python data cleaning, exploratory analysis, and RFM segmentation
+- `sql/` – SQL business analysis queries
+- `data/` – Aggregated analysis outputs used in the project
+- `images/` – Dashboard and supporting visualizations
+- `requirements.txt` – Python dependencies
 
 ### Product Performance
 
