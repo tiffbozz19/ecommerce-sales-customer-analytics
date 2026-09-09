@@ -10,6 +10,12 @@ The analysis uses Python for data cleaning and exploratory analysis, SQL for bus
 
 ![E-Commerce Sales & Customer Analytics Dashboard](images/dashboard.png)
 
+## Interactive Dashboard
+
+[View the interactive Tableau dashboard](https://public.tableau.com/views/E-CommerceSalesCustomerAnalytics_17889951493470/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+Explore sales trends, product performance, international markets, and RFM customer segments in the interactive Tableau dashboard.
+
 ### Dashboard Highlights
 
 - £10.27M in merchandise revenue
